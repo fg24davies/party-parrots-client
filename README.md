@@ -32,7 +32,7 @@ An app such as this could reduce this effort for charities. We also wanted our a
 - Express(.js) - Node.js web framework
 - React Native(.js) - a client-side JavaScript framework
 - Node(.js) - a JavaScript web server
-- [Backend repo]()
+- [Backend repo](https://github.com/fg24davies/party-parrots-server)
 - AWS-SDK, Multer, Multer-S3, UUID, MapQuest API
 
 ----
