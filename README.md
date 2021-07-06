@@ -14,6 +14,8 @@ The app is built with a MERN tech stack with React Native with the following lib
 
 ## UX
 
+![parrotpartygif](parrotparty.gif)
+
 
 The full demo and presentation of the app is [here](https://www.youtube.com/watch?v=avCYlOvstGc) (from 17min30s for 5 minutes)
 
