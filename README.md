@@ -19,6 +19,15 @@ Makers Academy final team project, created by [@louballantyne](https://github.co
 We created an iOS app to rehome tropical birds around the country. Potential adopters can view all available birds in a list (with photo of bird avi and by location, apply to adopt a bird and see when their application is approved.
 Charities (who handle tropical bird adoption) can list a bird up for adoption, add the birds location, see potential applications and approve them.
 
+#### How to run the app on the ioS simulator
+
+* Install Xcode if not already installed
+* Clone this repository
+* Run ``` npm install ```
+* Run ``` expo start ```
+
+The [server](https://parrot-party-api.herokuapp.com/) is hosted on Heroku and does not need to be run locally.
+
 ----
 
 ### Motivation
