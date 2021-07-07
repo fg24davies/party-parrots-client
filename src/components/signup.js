@@ -46,14 +46,6 @@ const SignUp = ({ navigation }) => {
       return alert("Ooops... Looks like you've forgotten something!");
     }
 
-    // console.log(
-    //   "input fields: ",
-    //   firstName,
-    //   lastName,
-    //   username,
-    //   email,
-    //   password
-    // );
     await fetch(`https://parrot-party-api.herokuapp.com/api/users`, {
       method: "POST",
       headers: {
