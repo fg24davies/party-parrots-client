@@ -85,7 +85,7 @@ const NewParrot = ({ navigation, route }) => {
 
   const uploadToServer = async (formData) => {
     try {
-      await fetch(`http://localhost:3000/api/uploads`, {
+      await fetch(`https://parrot-party-api.herokuapp.com/api/uploads`, {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -123,7 +123,7 @@ const NewParrot = ({ navigation, route }) => {
     ) {
       return alert("Ooops... Looks like you've forgotten something!");
     }
-    await fetch(`http://localhost:3000/api/parrots`, {
+    await fetch(`https://parrot-party-api.herokuapp.com/api/parrots`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

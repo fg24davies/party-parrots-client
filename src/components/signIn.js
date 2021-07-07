@@ -20,7 +20,7 @@ const SignIn = (props) => {
   const [passWord, setPassWord] = useState("");
 
   const onSignInButtonClicked = () => {
-    fetch("http://localhost:3000/api/sessions", {
+    fetch("https://parrot-party-api.herokuapp.com/api/sessions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

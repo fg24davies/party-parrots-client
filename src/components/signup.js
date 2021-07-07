@@ -54,7 +54,7 @@ const SignUp = ({ navigation }) => {
     //   email,
     //   password
     // );
-    await fetch(`http://localhost:3000/api/users`, {
+    await fetch(`https://parrot-party-api.herokuapp.com/api/users`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

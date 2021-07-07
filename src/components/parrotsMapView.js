@@ -16,9 +16,12 @@ const ParrotsMapView = ({ navigation, route }) => {
   useEffect(() => {
     const fetchParrots = async () => {
       console.log("fetch data in use effect");
-      const res = await fetch(`http://localhost:3000/api/parrots`, {
-        method: "GET",
-      })
+      const res = await fetch(
+        `https://parrot-party-api.herokuapp.com/api/parrots`,
+        {
+          method: "GET",
+        }
+      )
         .then((response) => response.json())
         .then((data) => {
           setParrots(data.parrots);
