@@ -46,6 +46,6 @@ An app such as this could reduce this effort for charities. We also wanted our a
 
 ----
 
-**Credit** to [@louballantyne](https://github.com/louballantyne) for time and effort in working with Birdline to rehome birds across the UK (and for the very fun project idea!)
+**Credit** to [@louballantyne](https://github.com/louballantyne) for time and effort in working with Birdline to rehome birds across the UK (and for the very fun project idea!) and credit to [@cspoppuppy](https://github.com/cspoppuppy) for sharing so much knowledge!
 
 
