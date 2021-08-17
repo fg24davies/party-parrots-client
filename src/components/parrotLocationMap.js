@@ -22,9 +22,6 @@ const ParrotLocationMap = ({ geocode }) => {
 					}}
 				>
 					<Image source={require('../images/party-parrot2.png')} style={styles.mapViewPinImage} />
-					{/* <Callout>
-            <Text>{parrot.name + ': ' + parrot.location}</Text>
-          </Callout> */}
 				</Marker>
 			</MapView>
 		</View>
