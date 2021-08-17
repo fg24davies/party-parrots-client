@@ -165,7 +165,6 @@ const NewParrot = ({ navigation, route }) => {
   };
 
   const fetchGeocode = async (url) => {
-    //console.log('url: ', url);
     const res = await fetch(url, {
       method: "GET",
     })
