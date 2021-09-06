@@ -47,10 +47,10 @@ The motivation for this project was to automate and streamline the current proce
    - Connect-Mongodb-session: To store session data in a database
 
 * External APIs:
-   - [MapQuest Api](https://developer.mapquest.com/): returns the geocodes (then extract latitude and longitude) given a specified location
-   - Amazon S3 Buckets: to store images
+   - [MapQuest Api](https://developer.mapquest.com/): Returns the geocodes (then extract latitude and longitude) given a specified location
+   - [Amazon S3 Buckets](https://aws.amazon.com/s3/): To store images
 
-- Server[Backend repo](https://github.com/fg24davies/party-parrots-server) 
+- Server: [Backend repo](https://github.com/fg24davies/party-parrots-server) 
 
 ##### 🏃🏼‍♀️ How to run the app
 
