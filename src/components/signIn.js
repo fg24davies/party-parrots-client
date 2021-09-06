@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import {
-  StyleSheet,
   TextInput,
-  Button,
   View,
   Image,
   TouchableOpacity,
@@ -10,9 +8,8 @@ import {
   Alert,
 } from "react-native";
 import styles from "../../styles";
-// import { Headbar } from '../../components/headbar/headbar'
 import { useNavigation } from "@react-navigation/core";
-// might have to change this to just props and use navation const in function. WE SHALL SEE.
+
 const SignIn = (props) => {
   const navigation = useNavigation();
 
@@ -35,7 +32,6 @@ const SignIn = (props) => {
             userId: data.userId,
             sessionId: data.sessionId,
           });
-          // a log in session function called here?
         } else {
           Alert.alert(data.message);
         }

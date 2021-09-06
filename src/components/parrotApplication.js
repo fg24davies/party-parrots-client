@@ -11,9 +11,9 @@ const ParrotApplication = ({
   approved,
   showApprove,
   onApproveSubmitted,
-  navigation,
 }) => {
   const [newApproved, setNewApproved] = useState(approved);
+
   const onApproveButtonClicked = async () => {
     const response = await fetch(
       `https://parrot-party-api.herokuapp.com/api/parrots/${parrotId}/applications/${applicationId}`,
@@ -25,7 +25,6 @@ const ParrotApplication = ({
     if (response.status === 200) {
       Alert.alert("Application approved successfully");
       setNewApproved(true);
-      // navigation.navigate('Parrot Page');
     } else if (response.status === 400) {
       Alert.alert("Parrot application already approved");
     } else {
@@ -43,12 +42,6 @@ const ParrotApplication = ({
         />
         <View style={styles.approveButton}>
           {showApprove && (
-            // <View
-            // 	style={styles.smallButtonContainer}
-            // 	onStartShouldSetResponder={() => onApproveButtonClicked()}
-            // >
-            // 	<Text style={styles.smallButtonText}>APPROVE</Text>
-            // </View>
             <TouchableOpacity
               style={styles.smallButtonContainer}
               onPress={() => onApproveButtonClicked()}
@@ -59,7 +52,6 @@ const ParrotApplication = ({
         </View>
       </View>
       <View style={styles.applicationContent}>
-        {/* <ParrotInfoItem label={applicant + ': '} info={message} /> */}
         <Text style={styles.infoLabel}>{applicant}</Text>
         <Text style={styles.infoText}>{message}</Text>
       </View>

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import {
   TextInput,
-  Button,
   View,
   Image,
   Alert,
@@ -14,11 +13,7 @@ import styles from "../../styles";
 import * as ImagePicker from "expo-image-picker";
 import { ParrotLocationMap } from "./parrotLocationMap";
 import { GEO_API_KEY } from "@env";
-import RadioForm, {
-  RadioButton,
-  RadioButtonInput,
-  RadioButtonLabel,
-} from "react-native-simple-radio-button";
+import RadioForm from "react-native-simple-radio-button";
 
 const NewParrot = ({ navigation, route }) => {
   const [image, setImage] = useState(null);
@@ -96,11 +91,8 @@ const NewParrot = ({ navigation, route }) => {
       })
         .then((response) => response.json())
         .then((data) => {
-          console.log("data from response: ", data);
           if (data.downloadUrl) {
-            console.log("download url: ", data.downloadUrl);
             setImageUrl(data.downloadUrl);
-            console.log("image url set: ", imageUrl);
           } else {
             Alert.alert("Error", data);
           }
@@ -155,6 +147,7 @@ const NewParrot = ({ navigation, route }) => {
     });
   };
 
+  // create location specific url for MapQuest API
   const getLocationGeocode = (location) => {
     if (location !== undefined) {
       const geoCoderUrlPrefix = `http://open.mapquestapi.com/geocoding/v1/address?key=${GEO_API_KEY}&location=`;
@@ -165,7 +158,6 @@ const NewParrot = ({ navigation, route }) => {
   };
 
   const fetchGeocode = async (url) => {
-    //console.log('url: ', url);
     const res = await fetch(url, {
       method: "GET",
     })

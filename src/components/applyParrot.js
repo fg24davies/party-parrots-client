@@ -6,7 +6,6 @@ const ApplyParrot = ({ parrotId, userId }) => {
   const [message, setMessage] = useState();
   const [applied, setApplied] = useState(false);
 
-  // hardcode userId at the moment
   const onApplyButtonClicked = async () => {
     if (message !== undefined) {
       await fetch(
@@ -46,10 +45,6 @@ const ApplyParrot = ({ parrotId, userId }) => {
               onChangeText={setMessage}
               autoCapitalize="none"
             />
-            {/* <View style={styles.buttonContainer} onStartShouldSetResponder={() => onApplyButtonClicked()}>
-							<Text style={styles.buttonText}>APPLY</Text>
-						</View> */}
-
             <TouchableOpacity
               style={styles.buttonPinkContainer}
               onPress={() => onApplyButtonClicked()}

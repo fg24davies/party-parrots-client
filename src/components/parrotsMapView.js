@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, Image } from "react-native";
+import { View, Image } from "react-native";
 import MapView, { Marker, Callout } from "react-native-maps";
 import styles from "../../styles";
 import Parrot from "./parrotItem";
@@ -8,10 +8,6 @@ const ParrotsMapView = ({ navigation, route }) => {
   const [parrots, setParrots] = useState([]);
   const [approvedApplications, setApprovedApplications] = useState([]);
   const { userType, userId } = route.params;
-  // const [pin, setPin] = useState({
-  // 	latitude: 51.507322,
-  // 	longitude: -0.127647,
-  // });
 
   useEffect(() => {
     const fetchParrots = async () => {

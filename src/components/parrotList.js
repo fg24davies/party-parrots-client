@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import {
   View,
   FlatList,
-  Button,
   Image,
   Alert,
   TouchableOpacity,
@@ -34,10 +33,7 @@ const ParrotList = ({ navigation, route }) => {
     fetchParrots();
   }, []);
 
-  // const getParrotsApprovedStatus = () => {
-  // 	parrots.forEach((parrot) => (parrot.approved = isParrotApproved(parrot._id)));
-  // };
-
+  // set the navigation bar for every page here
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerRight: () => (
@@ -56,14 +52,11 @@ const ParrotList = ({ navigation, route }) => {
   };
 
   const onSignOutButtonClicked = async () => {
-    console.log(
-      "sign out: ",
-      `https://parrot-party-api.herokuapp.com/api/sessions/${sessionId}`
-    );
     await fetch(
       `https://parrot-party-api.herokuapp.com/api/sessions/${sessionId}`,
       {
         method: "DELETE",
+        withCredentials: true,
       }
     )
       .then((response) => response.json())

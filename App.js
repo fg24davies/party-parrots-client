@@ -1,15 +1,14 @@
-
-import React from 'react';
-import 'react-native-gesture-handler';
-import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import { ParrotList } from './src/components/parrotList';
-import { SignUp } from './src/components/signup';
-import { ParrotPage } from './src/components/parrotPage';
-import { SignIn } from './src/components/signIn';
-import { NewParrot } from './src/components/newParrot';
-import { ParrotsMapView } from './src/components/parrotsMapView';
-import { AmaticSC_700Bold } from '@expo-google-fonts/amatic-sc';
+import React from "react";
+import "react-native-gesture-handler";
+import { DefaultTheme, NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+import { ParrotList } from "./src/components/parrotList";
+import { SignUp } from "./src/components/signup";
+import { ParrotPage } from "./src/components/parrotPage";
+import { SignIn } from "./src/components/signIn";
+import { NewParrot } from "./src/components/newParrot";
+import { ParrotsMapView } from "./src/components/parrotsMapView";
+import { AmaticSC_700Bold } from "@expo-google-fonts/amatic-sc";
 
 import {
   useFonts,
@@ -23,14 +22,11 @@ import {
 import AppLoading from "expo-app-loading";
 import Confetti from "react-native-confetti";
 
-
 const Stack = createStackNavigator();
 
-
 export default function App() {
-	const navTheme = DefaultTheme;
-	navTheme.colors.background = '#c5e3c7';
-
+  const navTheme = DefaultTheme;
+  navTheme.colors.background = "#c5e3c7";
 
   let [fontsLoaded] = useFonts({
     AmaticSC_700Bold,
@@ -42,9 +38,9 @@ export default function App() {
     Nunito_600SemiBold,
   });
 
-	if (!fontsLoaded) {
-		return <AppLoading />;
-	}
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  }
 
   return (
     <NavigationContainer>
@@ -102,7 +98,7 @@ export default function App() {
               fontFamily: "AmaticSC_700Bold",
               fontSize: 30,
             },
-          }} // no title for Parrot list page
+          }}
         />
         <Stack.Screen
           name="Parrot Page"
