@@ -64,8 +64,8 @@ The [server](https://parrot-party-api.herokuapp.com/) is hosted on Heroku and do
 ----
 ### ✏️ Some things that would be nice to add
 
-[] Deleting birds after a complete application
-[] Testing! - There is minimal testing in the app and I would like to learn how to test better in React 
+- [] Deleting birds after a complete application
+- [] Testing! - There is minimal testing in the app and I would like to learn how to test better in React 
 
 ---- 
 
