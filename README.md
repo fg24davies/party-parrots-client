@@ -6,7 +6,7 @@ An iOS app for listing and adopting tropical birds around the UK for my Makers A
 
 ----
 
-### ⁉️ Why use Parrot Party
+### ⁉️ Why Parrot Party
 
 The motivation for this project was to automate and streamline the current process of rehoming tropical birds as much as possible. As it is all done by charities and volunteers, the current clunky process of emailing and making phonecalls takes a lot of time. An app such as this could reduce this effort for charities. We also wanted our app to be visually pleasing and fun to use. For a full demo and presentation of the project is available [here](https://www.youtube.com/watch?v=avCYlOvstGc) (from 17min30s for 5 minutes)
 
