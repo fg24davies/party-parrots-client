@@ -58,7 +58,7 @@ The motivation for this project was to automate and streamline the current proce
    - Express-Sessions: Starting a session
    - BCyrpt: Hashing passwords for secure storage in the database
    - Mongoose: an ORM to interact with the database in a JavaScript friendly way
-   - Connect-Mongodb-session: To store session data in a database
+   - Connect-mongoose: To store session data in a database
 
 * External APIs:
    - [MapQuest Api](https://developer.mapquest.com/): Returns the geocodes (then extract latitude and longitude) given a specified location
