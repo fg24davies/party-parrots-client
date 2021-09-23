@@ -56,7 +56,7 @@ The motivation for this project was to automate and streamline the current proce
    - UUID: Creating unique path for image upload
    - Express-Sessions: Starting a session
    - BCyrpt: Hashing passwords for secure storage in the database
-   - Mongoose: an ORM to interact with the database
+   - Mongoose: an ORM to interact with the database in a JavaScript friendly way
    - Connect-Mongodb-session: To store session data in a database
 
 * External APIs:
