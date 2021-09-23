@@ -33,12 +33,13 @@ The motivation for this project was to automate and streamline the current proce
 
 * Followed an **Agile** development process, applying XP values (Communication, Feedback, Courage, Respect, Simplicity)
 * Ideas and planning session using a Miro board to collate all our ideas into themes and then voted to ensure fairness
-* Created a Team Charter with team goals and our own personal goals for the project (what technologies did we want to learn, what processes did we want to practise)
+* Created a Team Charter with team goals and our own personal goals for the project (what technologies did we want to learn, what processes did we want to practise) and chose a tech stack based on this
 * Decided on daily stand ups and retros, rotating the Leader and Scribe, to make sure we were communicating and giving feedback regularly
 * Daily mood check ins - what sort of bird are you feeling today? Perhaps 🦉 🦆 🐥 🦅  but not the only options!
 * Used a Trello board to break our user stories down into tickets to be assigned. It also held our resources (team charter, planned routes, helpful links for the tech stack etc)
 * It was a 3 person team so rotated pair programming and working alone
 * Came together to unblock
+* Submited and reviewed pull requests so everyone had an understanding of the code
 
 ---- 
 
