@@ -52,7 +52,7 @@ The motivation for this project was to automate and streamline the current proce
 
 * Packages:
 
-   - Multer/Multer-S3: for uploading images to Amazon buckets
+   - Multer/Multer-S3: for uploading images to S3 buckets
    - AWS-SDK: Needed for interacting with AWS in JavaScript
    - UUID: Creating unique path for image upload
    - Express-Sessions: Starting a session
