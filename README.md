@@ -29,6 +29,19 @@ The motivation for this project was to automate and streamline the current proce
    
 ----
 
+### 💻 Workflow:
+
+* Followed an **Agile** development process, applying XP values (Communication, Feedback, Courage, Respect, Simplicity)
+* Ideas and planning session using a Miro board to collate all our ideas into themes and then voted to ensure fairness
+* Created a Team Charter with team goals and our own personal goals for the project (what technologies did we want to learn, what processes did we want to practise)
+* Decided on daily stand ups and retros, rotating the Leader and Scribe, to make sure we were communicating and giving feedback regularly
+* Daily mood check ins - what sort of bird are you feeling today? Perhaps 🦉 🦆 🐥 🦅  but not the only options!
+* Used a Trello board to break our user stories down into tickets to be assigned. It also held our resources (team charter, planned routes, helpful links for the tech stack etc)
+* It was a 3 person team so rotated pair programming and working alone
+* Came together to unblock
+
+---- 
+
 ### 🛠  TechStack:
 
 - MongoDB - document-oriented database program
@@ -65,7 +78,7 @@ The [server](https://parrot-party-api.herokuapp.com/) is hosted on Heroku and do
 ### ✏️ Some things that would be nice to add
 
 - [] Deleting birds after a complete application
-- [] Testing! - There is minimal testing in the app and I would like to learn how to test better in React 
+- [] Testing! - There is minimal testing in the app and I would like to learn how to test better in React Native (end to end with Cypress/Detox)
 
 ---- 
 
@@ -76,15 +89,15 @@ The [server](https://parrot-party-api.herokuapp.com/) is hosted on Heroku and do
    - Number of salt rounds (the time needed by BCrypt to hash a password) is set to 10 - a compromise between how long the user has to wait to log in and security
    
 * I can fetch data from external APIs or store data in external APIs! 
-   - Using AJAX requests to communicate with external APIs such as the MapQuest or communicate with our server
+   - Using AJAX requests to communicate with external APIs such as the MapQuest and communicate with our server
 
 * Sessions and Authentication are complicated!
    - We were able to store session data in a MongoDB collection but not used in the way we intended
-   - In hindsight use something like Auth0 to deal with security 
+   - Use something like Auth0 to deal with security 
    
 * An Intro to React
    - There was a steep learning curve, took time for individual study and came back to together to knowledge share
-   - Explored React Native libraries such as confetti for UX and React Navigation to pass parameters to different screens and access them through destructuring:
+   - Explored React Native libraries such as confetti for UX and React Navigation to pass parameters to different screens and access them through destructuring
 
     
 ----
@@ -105,6 +118,9 @@ The [server](https://parrot-party-api.herokuapp.com/) is hosted on Heroku and do
    - https://devcenter.heroku.com/articles/getting-started-with-ruby#prepare-the-app
 
 ---- 
+
+
+
 
 **Credit** to [@louballantyne](https://github.com/louballantyne) for time and effort in working with Birdline to rehome birds across the UK (and for the very fun project idea!) and credit to [@cspoppuppy](https://github.com/cspoppuppy) for sharing so much knowledge!
 
